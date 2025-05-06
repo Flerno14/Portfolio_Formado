@@ -1,0 +1,69 @@
+  /* Estilo para as abas */
+  .tab-container {
+    overflow: hidden;
+    border: 3px solid #ffffff;
+    background-color: #000000;
+    
+    border-radius: 5px;
+  }
+
+  .tablink {
+    background-color: #00c9ff;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 20px;
+    transition: background-color 1s;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .tablink:hover {
+    background-color: #00c9ff;
+  }
+
+  /* Estilo para o conteúdo das abas */
+  .tab {
+    display: none;
+    padding: 20px;
+    background-color: #030021;
+    border: 3px solid #ffffff;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    
+  }
+  
+ /* Background da pagina */
+ body {
+  background-color: #000000;
+  text-align: center;
+ }
+
+ /*Botão voltar*/
+ button{
+  background-color: #00c9ff;
+  color: white;
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .2s;
+}
+button:hover,
+form .btn-enviar input:hover {
+  box-shadow: 0px 0px 8px #ffffff;
+  transform: scale(1.05);
+}
+
+p{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+h1{
+  color: white;
+}
