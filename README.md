@@ -27,7 +27,7 @@
 - Cole em um bloco de notas,
 - Agora vá até a página onde você quer subir o arquivo e copie o URL do endereço Web e cole no bloco de notas,
 
-- Agora você irá organizar o texto da seguinte forma:
+Agora você irá organizar o texto da seguinte forma:
 
     https://{Token gerado anteriormente}@{O que sobrou do link fora o já inserido no inicio}
     por exemplo:
