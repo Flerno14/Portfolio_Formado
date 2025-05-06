@@ -30,7 +30,9 @@
 Agora você irá organizar o texto da seguinte forma:
 
     https://{Token gerado anteriormente}@{O que sobrou do link fora o já inserido no inicio}
+    
     por exemplo:
+    
     https://ghp_AQyGetNL2w6Crd9ghUdJTh48pVnb1E2koWjo@github.com/Flerno14/Portfolio_Formado.git
 
 
