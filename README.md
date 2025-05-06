@@ -17,17 +17,17 @@
 ![image](https://github.com/user-attachments/assets/22d27a43-c29f-43d3-a7b1-a4b4960430dc)
 
 
-- Clique na sua foto de perfil no canto superior direito do GitHub e vá nas configurações da conta,
-escolha a opção de Configuração de Desenvolvedor, escolha a opção Token de acesso pessoal e depois Token(Clásico),
-em seguida você irá clicar em gerar um novo token e escolha a versão clássica novamente,
-Dê um nome para esse token e escolha a validade dele,
-aceite todos os escopos,
-gere o token,
-copie o token gerado,
-cole em um bloco de notas,
-agora vá até a página onde você quer subir o arquivo e copie o URL do endereço Web e cole no bloco de notas,
+- Clique na sua foto de perfil no canto superior direito do GitHub e vá nas configurações da conta
+- Escolha a opção de Configuração de Desenvolvedor, escolha a opção Token de acesso pessoal e depois Token(Clásico),
+- Em seguida você irá clicar em gerar um novo token e escolha a versão clássica novamente,
+- Dê um nome para esse token e escolha a validade dele,
+- Aceite todos os escopos,
+- Gere o token,
+- Copie o token gerado,
+- Cole em um bloco de notas,
+- Agora vá até a página onde você quer subir o arquivo e copie o URL do endereço Web e cole no bloco de notas,
 
-agora você irá organizar o texto da seguinte forma:
+- Agora você irá organizar o texto da seguinte forma:
 
     https://{Token gerado anteriormente}@{O que sobrou do link fora o já inserido no inicio}
     por exemplo:
