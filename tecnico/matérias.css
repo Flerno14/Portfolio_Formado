@@ -6,9 +6,27 @@
     border-radius: 5px;
   }
 
+  h1.projetos { display: inline-block; margin: 0; margin-right: 6px; }
+  .minimize-btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-left: 2px;
+  }
+  
+  .tab-container.collapsed .tablink {
+    display: none !important; 
+  }
+
+  .tab-container.collapsed br { 
+    display: none !important; 
+  }
+
   .tablink {
     background-color: #00c9ff;
-    float: left;
+    float: center;
     border: none;
     outline: none;
     cursor: pointer;
@@ -26,13 +44,14 @@
   .tab {
     display: none;
     padding: 20px;
-    background-color: #030021;
-    border: 3px solid #ffffff;
-    border-top: none;
-    border-radius: 0 0 5px 5px;
-    
+    border: 3px solid #000000;
+    border-top: 6px solid white;
+    border-radius: 5px 5px 5px 5px;
+
   }
-  
+  p{
+    font-size: 20px;
+  }
  /* Background da pagina */
  body {
   background-color: #000000;
@@ -70,7 +89,7 @@ h1{
 }
 .projetos{
   color: white;
-  text-align: left;
+  text-align: center;
   font-style: italic;
   font: sans-serif;
   border-bottom: 10 px;
