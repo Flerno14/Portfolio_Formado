@@ -1,3 +1,34 @@
+
+**A seguir você verá 2 métodos de se upar pastas para o github:**
+ - Upar códigos com a origem já lincada ao github <br>
+ >Indicado para casos onde o usuário já possui o diretório cadastrado e possui branches separadas <br><br>
+ - Upar códigos com a origem não lincada ao github
+ >Indicado para casos onde o usuário não configurou o diretório e não possui branches separadas <br><br>
+
+
+## Para upar o código para um arquivo já ligado ao github:
+
+- Dar Git Clone do Repositorio:
+
+![image](https://github.com/user-attachments/assets/12a4354c-f170-478b-a151-550f7ccd54ef)
+
+- Jogar os arquivos para dentro da pasta clonada do repositório:
+
+![image](https://github.com/user-attachments/assets/57a55437-0956-4e8c-8e46-de9d05456ebf)
+
+
+- Dar "cd" para entrar na pasta:
+
+![image](https://github.com/user-attachments/assets/a27802b4-2372-42f0-9057-c279f83fe702)
+
+ - git checkout -b nome-da-sua-branch
+ - git add .
+ - git commit -m "Descrição detalhada das suas alterações"
+
+
+<br><br><br>
+## Para upar o código para um arquivo não ligado ao github:
+
 - Dar Git Clone do Repositorio:
 
 ![image](https://github.com/user-attachments/assets/12a4354c-f170-478b-a151-550f7ccd54ef)
