@@ -1,10 +1,9 @@
 
-**A seguir você verá 2 métodos de se upar pastas para o github:**
+# Você verá a seguir 2 métodos/formas de se upar pastas de projetos para o github:
  - Upar códigos com a origem já lincada ao github <br>
  >Indicado para casos onde o usuário já possui o diretório cadastrado e possui branches separadas <br><br>
  - Upar códigos com a origem não lincada ao github
  >Indicado para casos onde o usuário não configurou o diretório e não possui branches separadas <br><br>
-
 
 ## Para upar o código para um arquivo já ligado ao github:
 
