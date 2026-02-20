@@ -28,6 +28,7 @@ function comeBack() {
   var containers = document.querySelectorAll('.tab-container');
   containers.forEach(function(container, idx) {
     var h1 = container.querySelector('h1.projetos');
+    
     if (!h1) return;
 
     // torce para o título ficar inline para o botão ficar rente
@@ -36,9 +37,9 @@ function comeBack() {
     var btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'minimize-btn';
-    btn.setAttribute('aria-pressed', 'false');
+    btn.setAttribute('aria-pressed', 'true');
     btn.title = 'Minimizar/Mostrar botões desta seção';
-    btn.textContent = '<';
+    btn.textContent = 'Mostrar mais';
 
     // inserir logo após o h1
     if (h1.nextSibling) h1.parentNode.insertBefore(btn, h1.nextSibling);
@@ -49,15 +50,16 @@ function comeBack() {
     try { collapsed = localStorage.getItem(storageKey) === '1'; } catch (e) { collapsed = false; }
     if (collapsed) {
       container.classList.add('collapsed');
-      btn.textContent = '>';
+      btn.textContent = 'Mostrar mais';
       btn.setAttribute('aria-pressed', 'true');
     }
 
     btn.addEventListener('click', function() {
       var nowCollapsed = container.classList.toggle('collapsed');
-      btn.textContent = nowCollapsed ? '>' : '<';
-      btn.setAttribute('aria-pressed', nowCollapsed ? 'true' : 'false');
+      btn.textContent = nowCollapsed ? 'Mostrar mais' : 'Mostrar menos';
+      btn.setAttribute('aria-pressed', nowCollapsed ? 'false' : 'true');
       try { localStorage.setItem(storageKey, nowCollapsed ? '1' : '0'); } catch (e) {}
     });
+    
   });
 })();
