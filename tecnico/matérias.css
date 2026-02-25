@@ -6,7 +6,20 @@
     border-radius: 5px;
   }
 
-  h1.projetos { display: inline-block; margin: 0; margin-right: 6px; }
+  h1.projetos { 
+    display: inline-block; 
+    margin: 0; 
+    margin-right: 6px; 
+  }
+
+  li{
+    text-align: left;
+    position: absolute;
+    left: 25%;
+    color: white;
+    
+  }
+
   .minimize-btn {
     display: inline-block;
     vertical-align: middle;
