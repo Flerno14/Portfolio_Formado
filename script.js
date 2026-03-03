@@ -13,14 +13,3 @@ menu.addEventListener('click', ()=>{
 overlay.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
-
-function copiar() {
-    text.select();
-    document.execCommand('copy');
-    window.getSelection().removeAllRanges();
-    var link = document.getElementById("link");
-    link.textContent = "Texto copiado";
-    setTimeout(function () {
-        link.textContent = "Clique para copiar";
-    }, 3000);
-}
