@@ -145,6 +145,10 @@ h1{
   border-bottom: rgb(255, 255, 255);
 
 }
+a{
+  color: #00c9ff;
+  text-decoration: none;
+}
 
 /* ESTILO DO MENU MOBILE */
 
