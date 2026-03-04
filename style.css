@@ -358,14 +358,11 @@ section.portfolio .flex {
     font-size: 24px;
     font-weight: 600;
     color: #fff;
-    opacity: 0;
-    transition: .5s;
-}
-
-.overlay:hover {
     opacity: 1;
+    transition: .8s;
+    box-shadow: 0 0 10px #ffffff;
+    border-color: white;
 }
-
 /* ESTILO DO RODAPÉ */
 
 footer {
