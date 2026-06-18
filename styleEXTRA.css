@@ -2,11 +2,13 @@ body{
     text-align: center;
     color: white;
     background-color:#000000;
+    scroll-behavior: smooth
 }
 
 
  /*Botão voltar*/
- button{
+ button,
+ .btn-voltar {
     background-color: #00c9ff;
     color: white;
     padding: 10px 40px;
@@ -16,9 +18,20 @@ body{
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    display: inline-block;
+    text-decoration: none;
   }
   button:hover,
+  .btn-voltar:hover,
   form .btn-enviar input:hover {
     box-shadow: 0px 0px 8px #ffffff;
     transform: scale(1.05);
   }
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-group(*) {
+  animation-duration: 100ms;
+}

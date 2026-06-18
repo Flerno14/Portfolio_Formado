@@ -1,4 +1,8 @@
 /* ESTILO GERAL */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +20,7 @@ img:not(.fixed-photo) {
 
 body {
     background-color: #000000;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .interface {
@@ -39,7 +43,7 @@ header{
     background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0));
     z-index: 2;
 }
-.btn-contato button {
+.btn-contato a {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
@@ -49,6 +53,8 @@ header{
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    display: inline-block;
+    text-decoration: none;
 }
 
 h2.titulo {
@@ -62,6 +68,7 @@ h2.titulo span {
 }
 
 button:hover,
+.btn-contato a:hover,
 form .btn-enviar input:hover {
     box-shadow: 0px 0px 8px #007acc;
     transform: scale(1.05);
@@ -404,6 +411,8 @@ i{
     border-color: white;
 }
 
+
+
 @media screen and (max-width: 1020px) {
 
     /* CLASSES GERAIS */
@@ -503,3 +512,12 @@ i{
     }   
     
 }
+
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-group(*) {
+  animation-duration: 100ms;
+}
+
